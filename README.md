@@ -139,9 +139,8 @@ gantt
 
 프로젝트에서 사용하는 HTML, CSS, JavaScript 작성 규칙은 아래 문서를 참고하세요.
 
-- [HTML 컨벤션](docs/guide_html.md)
-- [CSS 컨벤션](docs/guide_css.md)
-- [JavaScript 컨벤션](docs/guide_js.md)
+- [HTML 컨벤션]([docs/guide_html.md](https://www.figma.com/slides/Sf6CCul98z8CGkzd1neFEe))
+- [CSS 컨벤션]([docs/guide_css.md](https://www.figma.com/slides/Sf6CCul98z8CGkzd1neFEe))
 
 ---
 
