@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="icon" href="images/favicon-dev.svg" />
-    <meta name="description" content="이스트소프트 오르미 프론드엔드 13기 1차 프로젝트 4팀 No-Error EST Camp 랜딩페이지 리뉴얼 정적 웹사이트 구현">
-    
+    <meta
+      name="description"
+      content="이스트소프트 오르미 프론드엔드 13기 1차 프로젝트 4팀 No-Error EST Camp 랜딩페이지 리뉴얼 정적 웹사이트 구현"
+    />
+
     <title>EST Camp | 실무 중심 개발 부트캠프</title>
   </head>
 
@@ -227,7 +230,9 @@
                     </ul>
                   </div>
 
-                  <a href="#" class="cta-button-main-item btn btn-md text-white bg-primary"> 과정 자세히 보기 </a>
+                  <a href="#" class="cta-button-main-item btn btn-md text-white bg-primary">
+                    과정 자세히 보기
+                  </a>
                 </div>
               </article>
 
@@ -264,7 +269,9 @@
                     </ul>
                   </div>
 
-                  <a href="#" class="cta-button-main-item btn btn-md text-white bg-primary"> 과정 자세히 보기 </a>
+                  <a href="#" class="cta-button-main-item btn btn-md text-white bg-primary">
+                    과정 자세히 보기
+                  </a>
                 </div>
               </article>
             </div>
@@ -922,14 +929,20 @@
             <div class="text-group box vertical">
               <h2>Ready to start your journey?</h2>
               <div class="description-text">
-                <p>당신의 꿈이 현실이 되는 곳, 이스트캠프에서 최고의 동료들과 함께 성장을 시작하세요.</p>
+                <p>
+                  당신의 꿈이 현실이 되는 곳, 이스트캠프에서 최고의 동료들과 함께 성장을 시작하세요.
+                </p>
                 <p>지금 지원하시면 커리어 상담 기회도 드립니다</p>
               </div>
-            </div> 
+            </div>
             <!-- 버튼 그룹 -->
             <div class="final-cta-buttons box horizontal">
-              <a href="#" class="final-cta-button-main btn btn-md bg-white text-primary">나에게 맞는 과정 찾기</a>
-              <a href="#" class="final-cta-button-normal btn btn-md bg-secondary text-white">브로셔 다운로드</a>
+              <a href="#" class="final-cta-button-main btn btn-md bg-white text-primary"
+                >나에게 맞는 과정 찾기</a
+              >
+              <a href="#" class="final-cta-button-normal btn btn-md bg-secondary text-white"
+                >브로셔 다운로드</a
+              >
             </div>
           </div>
         </div>
@@ -1037,5 +1050,43 @@
       </div>
     </div>
     <!-- Fixed UI 종료 -->
+
+    <!-- Popup UI - 배정호 작업 -->
+
+    <dialog id="intro-notice" class="popup-ui">
+      <div class="intro">
+        <h2>EST Camp 랜딩페이지 리뉴얼 [P1]</h2>
+        <div>
+          <p>본 사이트는 팀 프로젝트 <span class="em">포트폴리오</span> 사이트입니다.</p>
+          <p>과정명 : 이스트소프트 오르미 프론드엔드 13기</p>
+          <p>제작기간 : 2026.04.28 ~ 2025.05.12</p>
+        </div>
+      </div>
+      <div class="stacks">
+        <h3>개발 스택</h3>
+        <div>
+          <p>
+            개발 환경 : <span class="em">HTML</span>, <span class="em">CSS</span>,
+            <span class="em">javascript</span>
+          </p>
+          <p>
+            소스 관리 :
+            <a href="https://github.com/raspbsb/my-EST_FE_13_1st_Project" class="em"
+              ><span>Github</span></a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="popup-ui-buttons">
+        <div>
+          <label for="agree">24시간 동안 보지 않기</label>
+          <input type="checkbox" id="agree" />
+        </div>
+        <button class="popup-close">닫기</button>
+      </div>
+    </dialog>
+
+    <!-- Popup UI 종료 -->
+    <script src="js/main.js"></script>
   </body>
 </html>
